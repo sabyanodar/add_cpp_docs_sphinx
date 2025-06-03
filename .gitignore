@@ -1,0 +1,83 @@
+.DS_Store
+.vscode
+old
+log.txt
+junk
+junk*
+bin/
+graphviz/
+install
+docker/downloads
+docker/logs
+__pycache__
+
+# Image files
+# *.png
+*.jpg
+*.tiff
+
+# Prerequisites
+*.d
+
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+!./3rdparty/gbm/**
+
+# Fortran module files
+*.mod
+*.smod
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
+
+# Clion relics
+.idea
+build
+build-docker
+cmake-build*
+
+# QTCreator relics
+build-*
+# CMakeLists.txt.user
+
+*.gz
+
+# Profiling output
+perf.data*
+
+# Encrypted files
+encrypted/
+
+# Imgui cache
+imgui.ini
+
+# ROS logs
+log
+
+# Compiled shaders
+*.spv
+
+# Viewer config
+viewer_config.yaml
+
+site
